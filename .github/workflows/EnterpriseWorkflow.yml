@@ -109,7 +109,7 @@ jobs:
         - name: Install SQL Fluff
           if: ${{ true }}
           run: |
-            ${{ GITHUB.WORKSPACE }}\Scripts\pip.exe install sqlfluff==1.2.1'
+            ${{ GITHUB.WORKSPACE }}\Scripts\pip.exe install sqlfluff==1.2.1
           
         # Runs the Flyway Check command, to produce a deployment report, against the Production database
         - name: Create Check Reports
